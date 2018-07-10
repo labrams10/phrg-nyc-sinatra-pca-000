@@ -17,5 +17,5 @@ class FiguresController < ApplicationController
     erb :'/figures/show'
   end
 
-
+#small change for new branch
 end
