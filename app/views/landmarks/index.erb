@@ -1,4 +1,9 @@
-<div><% @landmarks.each do |landmark| %>
+<table>
+  <% @landmarks.each do |landmark| %>
  <p><%= landmark.name %></p>
  <p><%= landmark.year_completed %></p>
- <% end %></div>
+ <% end %>
+</table>
+<br>
+<a class="button" href="landmarks/new">New Landmark Here:</a>
+<a class="button" href="/figures">View Figures</a>

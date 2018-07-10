@@ -11,4 +11,5 @@ if ActiveRecord::Base.connection.migration_context.needs_migration?
 end
 
 use LandmarksController
+use FiguresController
 run ApplicationController
